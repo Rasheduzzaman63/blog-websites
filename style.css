@@ -269,10 +269,20 @@ header{
     flex: 1;
     text-align: right;
 } 
-.social-article, .menu nav ul li a{
-    padding: 7px 7px;
-    display: inline;   
+.social-menu{
+    margin-right: 15px;
 }
+.social-menu ul li a{
+    background: white;
+}
+.social-menu nav ul li{
+    list-style-type:none;;
+    display: inline;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    color:white
+}
+
 /* social media starts here */
 /* banner ends here */
 /* footer section starts here */
@@ -413,11 +423,6 @@ span a{
         width: 50%;
         font-size: 25px;
     }
-    .social-article, .menu nav ul li{
-        display: inline-block; 
-        text-align: center;
-        padding: 0;  
-    }
     .social-article-head{
         margin-top: 20px;
     }
@@ -505,7 +510,10 @@ span a{
    }
   .social-btn{
     width: 100%;
-    }   
+    } 
+    #footer-section{
+       height: max-content;
+    }  
  }
  @media screen and (max-width: 360px) {
     header{
